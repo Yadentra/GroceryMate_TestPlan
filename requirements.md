@@ -22,7 +22,7 @@ This test plan outlines the testing strategy for new features in the Grocery Mat
 
 ## Timeline
 - **Start Date:** 16.10.2024
-- **End Date:** 30.10.2024
+- **End Date:** 23.10.2024
 
 ## Testing Approach
 - **Functional Testing:** Test features against requirements.

@@ -21,8 +21,8 @@ This test plan outlines the testing strategy for new features in the Grocery Mat
 - **Tools:** Selenium, Postman, JIRA
 
 ## Timeline
-- **Start Date:** [25.10.2024]
-- **End Date:** [30.10.2024]
+- **Start Date:** 25.10.2024
+- **End Date:** 30.10.2024
 
 ## Testing Approach
 - **Functional Testing:** Test features against requirements.

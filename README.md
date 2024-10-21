@@ -1,4 +1,4 @@
-# Grocery Mate Test Plan
+# Grocery Mate Test Plan.
 
 ## Overview
 

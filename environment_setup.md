@@ -59,4 +59,3 @@ The following tools and frameworks are used to execute automated test cases effi
 
   Make sure all configurations are aligned with Grocery Mate’s testing requirements. Confirm that all browser drivers are compatible with the installed browser versions.
 
-  This file provides a clear outline of the setup, tools, and environment requirements for testing. Let me know if you need further customization!

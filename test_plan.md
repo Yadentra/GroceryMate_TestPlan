@@ -1,38 +1,40 @@
-# Testing Plan for Grocery Mate Webshop
+# Grocery Mate Test Plan
 
-1. Introduction
-This test plan is designed to outline the testing strategy for the new features being developed for the Grocery Mate webshop.
-2. Objectives
-   - Verify the functionality of new features.
-   - Ensure that the webshop operates efficiently     and provides a user-friendly experience.
-   - Identify and report any defects related to the new features.
-3. Scope
-The scope of testing includes:
-   - User registration and login
-   - Product search and filter functionality
-   - Shopping cart operations
-   - Checkout process
-   - Order history and tracking
-   - Payment gateway integration
-4. Resources
-   - **Testers**: [List of team members]
-   - **Tools**: Selenium, Postman for API testing, JIRA for defect tracking
-5. Timeline
-   - **Start Date**: [Insert Date]
-   - **End Date**: [Insert Date]
-6. Testing Approach
-   - **Functional Testing**: Test each feature against the functional requirements.
-   - **Usability Testing**: Evaluate the user interface and user experience.
-   - **Performance Testing**: Assess the speed and responsiveness of the webshop.
-   - **Security Testing**: Test for vulnerabilities in user data handling.
-7. Test Deliverables
-   - Test case documents
-   - Test execution reports
-   - Defect reports
-   - Final test summary report
-8. Risks
-   - Inadequate testing due to time constraints.
-   - Potential integration issues with third-party services.
-9. Approval
-   Test Execution and Completion will require  approval from [Stakeholder/Project Manager].
+## Overview
+The Grocery Mate Test Plan outlines the testing strategies, objectives, and scope for the Grocery Mate Webshop application. This document aims to ensure that the application meets the required quality standards and delivers a seamless user experience.
+
+## Product Analysis
+- **User Base**: Define the target audience for the webshop.
+- **Functionality**: List core functionalities (e.g., user registration, product search).
+- **Hardware and Software Specifications**: Detail the required infrastructure for testing.
+
+## Objectives
+- Ensure all functionalities of the Grocery Mate application work as intended.
+- Identify and fix defects before the application goes live.
+- Validate the application's performance and security.
+- Improve user satisfaction by delivering a bug-free application.
+- **Expected Outcomes**: Improved functionality and user experience, successful defect identification.
+
+## Scope
+- **In Scope**: Functional testing, performance testing, security testing, user acceptance testing.
+- **Out of Scope**: Compatibility testing with older browsers or devices.
+
+## Testing Criteria
+- **Suspension Criteria**: Testing may be suspended if critical defects are identified that halt progress.
+- **Exit Criteria**: Testing is complete when all critical defects are resolved and acceptance criteria are met.
+
+## Test Environment
+- Specify the hardware, software, and network settings required for testing.
+
+## Timeline
+- **Start Date**: 2024.10.08
+- **End Date**: 2024.10.09
+- **Detailed Schedule**: Provide milestones and deadlines for each phase of testing.
+
+## Resource Planning
+- List of team members and their roles testers, developers, project managers.
+- Tools and technologies to be used Selenium, JIRA.
+
+## Conclusion
+This test plan serves as a guideline for the testing phase of the Grocery Mate Webshop application, aiming to deliver a quality product.
 

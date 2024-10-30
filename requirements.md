@@ -1,41 +1,41 @@
-# Grocery Mate Webshop Testing Plan
+# Grocery Mate Requirements
 
-## Introduction
-This test plan outlines the testing strategy for new features in the Grocery Mate webshop.
+## Overview
+This document outlines the detailed requirements for the new features to be implemented in the Grocery Mate Webshop.
 
-## Objectives
-- Verify the functionality of new features.
-- Ensure a user-friendly experience.
-- Identify and report defects.
+## Features
 
-## Scope
-- User registration and login
-- Product search and filter functionality
-- Shopping cart operations
-- Checkout process
-- Order history and tracking
-- Payment gateway integration
+### 1. Product Rating System
 
-## Resources
-- **Testers:** Yadentra
-- **Tools:** Selenium, Postman, JIRA
+#### Description
+The Product Rating System allows customers to rate and review products.
 
-## Timeline
-- **Start Date:** 16.10.2024
-- **End Date:** 23.10.2024
+#### Detailed Requirements
+- **User Role**: All registered users can rate products they have purchased.
+- **Rating Scale**: Users can rate products on a scale of 1 to 5 stars.
+- **Review Text**: Users can provide a textual review (optional, up to 500 characters).
+- **Display Ratings**: Average rating displayed on the product page.
+- **Validation**: Users cannot submit a rating without being logged in and can only rate a product once.
 
-## Testing Approach
-- **Functional Testing:** Test features against requirements.
-- **Usability Testing:** Evaluate user experience.
-- **Performance Testing:** Assess speed and responsiveness.
-- **Security Testing:** Identify vulnerabilities.
+### 2. Age Verification for Alcoholic Products
 
-## Test Deliverables
-- Test case documents
-- Test execution reports
-- Defect reports
-- Final test summary report
+#### Description
+Ensures that customers are of legal age before purchasing alcoholic products.
 
-## Risks
-- Inadequate testing due to time constraints.
-- Potential integration issues with third-party services.
+#### Detailed Requirements
+- **Age Verification Prompt**: Appears when a user adds an alcoholic product to the cart.
+- **Input Method**: Users enter their date of birth.
+- **Validation**: Users must be at least 21 years old to proceed.
+
+### 3. Shipping Cost Changes
+
+#### Description
+Updates shipping costs based on user location and cart value.
+
+#### Detailed Requirements
+- **Location Input**: Users enter their shipping address.
+- **Dynamic Calculation**: System calculates shipping costs based on the address.
+- **Shipping Methods**: Various options available with corresponding costs.
+
+## Conclusion
+This document aims to provide a detailed foundation for the implementation of new features in the Grocery Mate Webshop.
